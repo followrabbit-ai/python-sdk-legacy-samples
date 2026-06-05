@@ -35,7 +35,8 @@ recommendation for new code:
   the deprecated `maximumBillingTier`.
 
 (A modern `google-cloud-bigquery` equivalent -- a drop-in `bigquery.Client`
-subclass whose `query()` is optimized by Rabbit -- is also available from Rabbit
+subclass whose `query()` is optimized by Rabbit -- is
+[also available from Rabbit](https://github.com/followrabbit-ai/python-sdk-samples)
 if your codebase uses the recommended client.)
 
 ## The three mechanisms and where the reservation goes
