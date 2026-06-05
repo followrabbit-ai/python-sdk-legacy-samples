@@ -105,8 +105,9 @@ Composer 3 (which already ships `apache-airflow` and
 
 ## Open questions (defaults applied, confirm for your environment)
 
-These were flagged in the handoff; this repo applies sensible defaults that can
-be revisited:
+These are integration decisions where this repo applies a sensible default. The
+defaults work for the common case, but each is worth confirming against your
+own environment:
 
 1. **Region / location.** Handled implicitly via region-encoded
    `RABBIT_RESERVATION_IDS`, so no location is passed. Confirm whether any
